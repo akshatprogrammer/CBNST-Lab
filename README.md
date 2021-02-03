@@ -24,3 +24,9 @@
 * I. Log2 x
 * J. e^x
 </br>[Here is the program](https://github.com/akshatprogrammer/CBNST-Lab/blob/main/UseOfMathematicalFunctions.cpp)
+
+
+## Lab-3
+**BISECTION METHOD**</br>
+The bisection method is a root-finding method that applies to any continuous functions for which one knows two values with opposite signs.
+</br>[Here are examples with output ss](https://github.com/akshatprogrammer/CBNST-Lab/tree/Bisection/Bisection)
