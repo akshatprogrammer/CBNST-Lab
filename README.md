@@ -30,3 +30,9 @@
 **BISECTION METHOD**</br>
 The bisection method is a root-finding method that applies to any continuous functions for which one knows two values with opposite signs.
 </br>[Here are examples with output ss](https://github.com/akshatprogrammer/CBNST-Lab/tree/Bisection/Bisection)
+
+## Lab-4
+**REGULA FALSI METHOD**</br>
+The Regula–Falsi Method is a numerical method for estimating the roots of a polynomial f(x). A value x replaces the midpoint in the Bisection Method and serves as the new approximation of a root of f(x). The objective is to make convergence faster. Assume that f(x) is continuous.
+
+</br>[Here are examples with output ss](https://github.com/akshatprogrammer/CBNST-Lab/tree/Root-Finding-Methods/Regula%20Falsi)
