@@ -39,59 +39,59 @@ The Regula–Falsi Method is a numerical method for estimating the roots of a po
 ## Lab-5
 **NEWTON RALPHSON METHOD**</br>
 The Newton-Raphson method (also known as Newton's method) is a way to quickly find a good approximation for the root of a real-valued function f ( x ) = 0 f(x) = 0 f(x)=0. It uses the idea that a continuous and differentiable function can be approximated by a straight line tangent to it.
-</br>[Here is example]()
+</br>[Here is example](https://github.com/akshatprogrammer/CBNST-Lab/tree/Root-Finding-Methods/Newton%20RalphSon)
 
 ## Lab-6
 **GAUSS ELIMINATION METHOD**</br>
 The Gaussian elimination method is known as the row reduction algorithm for solving linear equations systems. It consists of a sequence of operations performed on the corresponding matrix of coefficients.
-</br>[Here is example]()
+</br>[Here is example](https://github.com/akshatprogrammer/CBNST-Lab/tree/Root-Finding-Methods/Gauss%20Elimination)
 
 ## Lab-7
 **GAUSS JORDAN METHOD**</br>
 The Gauss-Jordan method is similar to the Gaussian elimination process, except that the entries both above and below each pivot are zeroed out.
-</br>[Here is example]()
+</br>[Here is example](https://github.com/akshatprogrammer/CBNST-Lab/tree/Root-Finding-Methods/Gauss%20Jordan)
 
 ## Lab-8
 **Newton's Forward INTERPOLATION METHOD**</br>
 This formula is particularly useful for interpolating the values of f(x) near the beginning of the set of values given. h is called the interval of difference and u = ( x – a ) / h, Here a is the first term.</br>
 ![image](https://www.geeksforgeeks.org/wp-content/ql-cache/quicklatex.com-7d7c62dfbfebdfecda42ce13a57dea07_l3.svg)
-</br>[Here is example]()
+</br>[Here is example](https://github.com/akshatprogrammer/CBNST-Lab/tree/Root-Finding-Methods/Forward%20Interplotion)
 
 ## Lab-9
 **Newton's Backward INTERPOLATION METHOD**</br>
 This formula is useful when the value of f(x) is required near the end of the table. h is called the interval of difference and u = ( x – an ) / h, Here an is last term.
 ![image](https://www.geeksforgeeks.org/wp-content/ql-cache/quicklatex.com-96a67d06ab4f23b4a413ceec940454c8_l3.svg)
-</br>[Here is example]()
+</br>[Here is example](https://github.com/akshatprogrammer/CBNST-Lab/tree/Root-Finding-Methods/Backward%20Interpolation)
 
 ## Lab-10
 **Lagrange's Interpolation Method**</br>
 Lagrange polynomials are used for polynomial interpolation. For a given set of distinct points x_{j} and numbers y_{j}. Lagrange's interpolation is also an N^{th} degree polynomial approximation to f(x).
-</br>[Here is example]()
+</br>[Here is example](https://github.com/akshatprogrammer/CBNST-Lab/tree/Root-Finding-Methods/Lagrange)
 
 ## Lab-11
 **TRAPEZODIAL METHOD**</br>
 Trapezoidal Rule is a rule that evaluates the area under the curves by dividing the total area into smaller trapezoids rather than using rectangles. This integration works by approximating the region under the graph of a function as a trapezoid, and it calculates the area. This rule takes the average of the left and the right sum.
-</br>[Here is example]()
+</br>[Here is example](https://github.com/akshatprogrammer/CBNST-Lab/tree/Root-Finding-Methods/Trapezodial)
 
 ## Lab-12
 **SIMPSON 1/3 METHOD**</br>
 The approximate equality in the rule becomes exact if f is a polynomial up to quadratic degree. If the 1/3 rule is applied to n equal subdivisions of the integration range [a,b], one obtains the composite Simpson's rule.
-</br>[Here is example]()
+</br>[Here is example](https://github.com/akshatprogrammer/CBNST-Lab/tree/Root-Finding-Methods/Simpsons%2013)
 
 ## Lab-13
 **SIMPSON 3/8 METHOD**</br>
 Simpson's 3/8 rule, also called Simpson's second rule requests one more function evaluation inside the integration range, and is exact if f is a polynomial up to cubic degree.
-</br>[Here is example]()
+</br>[Here is example](https://github.com/akshatprogrammer/CBNST-Lab/tree/Root-Finding-Methods/Simpson%2038)
 
 ## Lab-14
 **EULER'S METHOD**</br>
 The Euler method is a first-order method, which means that the local error (error per step) is proportional to the square of the step size, and the global error (error at a given time) is proportional to the step size.
-</br>[Here is example]()
+</br>[Here is example](https://github.com/akshatprogrammer/CBNST-Lab/tree/Root-Finding-Methods/Euler's)
 
 ## Lab-15
 **RUNGE KUTTA METHOD**</br>
 The Runge–Kutta methods are a family of implicit and explicit iterative methods, which include the well-known routine called the Euler Method, used in temporal discretization for the approximate solutions of ordinary differential
-</br>[Here is example]()
+</br>[Here is example](https://github.com/akshatprogrammer/CBNST-Lab/tree/Root-Finding-Methods/Runge%20Kutta)
 
 
 # Connect With Me
