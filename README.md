@@ -98,7 +98,7 @@ The Runge–Kutta methods are a family of implicit and explicit iterative method
 </br>
 
 # Connect With Me
-LinkedIn : https://www.linkedin.com/in/akshat-jain-a24baa18a/<br/>
+LinkedIn : https://www.linkedin.com/in/akshatjaingeu/<br/>
 Email : akshat.kodia@gmail.com<br/>
 Twitter : www.twitter.com/akki_aj89<br/>
 
