@@ -93,6 +93,9 @@ The Euler method is a first-order method, which means that the local error (erro
 The Runge–Kutta methods are a family of implicit and explicit iterative methods, which include the well-known routine called the Euler Method, used in temporal discretization for the approximate solutions of ordinary differential
 </br>[Here is example](https://github.com/akshatprogrammer/CBNST-Lab/tree/Root-Finding-Methods/Runge%20Kutta)
 
+## ALGORITHMS OF EVERY METHOD 
+[CLICK ON THIS LINK 🔗 ](https://github.com/akshatprogrammer/CBNST-Lab/tree/Algorithm/Algorithm)
+</br>
 
 # Connect With Me
 LinkedIn : https://www.linkedin.com/in/akshat-jain-a24baa18a/<br/>
