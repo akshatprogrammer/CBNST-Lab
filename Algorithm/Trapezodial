@@ -1,0 +1,21 @@
+Objective: Program to implement Trapezoidal rule. 
+Algorithm: 
+• Start 
+• Define and Declare function 
+• Input initial boundary value, final boundary value and length of 
+  interval 
+• Calculate number of strips, n = (final boundary value –final 
+  boundary value)/length of interval 
+• Perform following operation in loop 
+ 	x[i]=x0+i*h 
+ 	y[i]=f(x[i]) 
+ 	print y[i] 
+• Initialize se=0, s0=0 
+• Do the following using loop 
+ 	If i %2 = 0 
+ 	So=s0+y[i] 
+ 	Otherwise 
+ 	Se=se+y[i] 
+• ans= h/3*(y[0]+y[n]+4*so+2*se) 
+• print the ans
+• Stop

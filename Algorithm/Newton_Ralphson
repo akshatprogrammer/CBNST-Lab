@@ -1,0 +1,19 @@
+Objective: Program to implement Newton Raphson Method. 
+Algorithm: 
+1. Start 
+2. Read x, e, n, d 
+	*x is the initial guess 
+	e is the absolute error i.e the desired degree of accuracy 
+	n is for operating loop 
+	d is for checking slope* 
+3. Do for i =1 to n in step of 2 
+4. f = f(x) 
+5. f1 = f'(x) 
+6. If ( [f1] < d), then display too small slope and goto 11. 
+	*[ ] is used as modulus sign* 
+7. x1 = x – f/f1 
+8. If ( [(x1 – x)/x1] < e ), the display the root as x1 and goto 11. 
+	*[ ] is used as modulus sign* 
+9. x = x1 and end loop 
+10.Display method does not converge due to oscillation. 
+11.Stop

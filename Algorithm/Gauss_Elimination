@@ -1,0 +1,27 @@
+Objective: Program to implement Gauss Elimination Method. 
+Algorithm: 
+1. Start 
+2. Declare the variables and read the order of the matrix n. 
+3. Take the coefficients of the linear equation as: 
+	Do for k=1 to n 
+	Do for j=1 to n+1 
+	Read a[k][j] 
+	End for j 
+	End for k 
+4. Do for k=1 to n-1 
+	Do for i=k+1 to n 
+	Do for j=k+1 to n+1 
+	a[i][j] = a[i][j] – a[i][k] /a[k][k] * a[k][j] 
+	End for j 
+	End for i 
+	End for k 
+5. Compute x[n] = a[n][n+1]/a[n][n] 
+6. Do for k=n-1 to 1 
+	sum = 0 
+	Do for j=k+1 to n 
+	sum = sum + a[k][j] * x[j] 
+	End for j 
+	x[k] = 1/a[k][k] * (a[k][n+1] – sum) 
+	End for k 
+7. Display the result x[k] 
+8. Stop

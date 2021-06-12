@@ -1,0 +1,30 @@
+Objective: Program to implement Newton Backward 
+Interpolation Method. 
+Algorithm: 
+1. Start of the program. 
+2. Input number of terms n 
+3. Input the array ax 
+4. Input the array ay 
+5. h=ax[1]-ax[0] 
+6. for i=0; i<n–1; i++ 
+7. diff[i][1]=ay[i+1]–ay[i] 
+8. End Loop i 
+9. for j = 2; j < = 4; j + + 
+10.for i=0; i<n–j; i++ 
+11.diff[i][j]=diff[i+1][j–1]–diff [i][j–1] 
+12.End Loop i 
+13.End Loop j 
+14.i=0 
+15.Repeat Step 16 until (!ax[i]<x) 
+16.x0=mx[i] 
+17.sum=0 
+18.y0=my[i]
+19.fun=1 
+20.p=(x–x0)/h 
+21.sum=y0 
+22.k=1; k<=4; k++ 
+23.fun=(fun*(p–(k–1)))/k 
+24.sum=sum+fun*diff[i][k] 
+25.End loop k 
+26.Print Output x,sum 
+27.End of Program

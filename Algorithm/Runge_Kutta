@@ -1,0 +1,23 @@
+Runge-Kutta Method for 4th order
+Step 1: Read x1,y1 initial values.
+Step 2: Read a, value at which function value is to be
+		found.
+Step 3: Read n, the number of steps.
+Step 4: count=0
+Step 5: h=(a-x1)/n
+Step 6: write x1,y1
+Step 7: s1=f(x1,y1)
+Step 8: s2=f(x1+h/2,y1+s1*h/2)
+Step 9: s3=f(x1+h/2,y1+s2*h/2)
+Step 10: s4=f(x1+h,y1+s3*h)
+Step 11: y2=y1+(s1+2*s2+2*s3+s4)*h/6
+Step 12: x2=x1+h
+Step 13: write x2,y2
+Step 14: count=count+1
+Step 15: If count<n . then
+		x1=x2
+		y1=y2
+		go to step step 7
+		end if
+Step 16: write x2,y2
+Step 17: stop

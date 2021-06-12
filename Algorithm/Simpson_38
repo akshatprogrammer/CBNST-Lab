@@ -1,0 +1,12 @@
+Objective: Program to implement Simpson 3/8 rule. 
+Algorithm: 
+
+ 1.Given a function f(x): 
+ 2. (Get user inputs) Input a,b=endpoints of interval n=number of intervals 
+ 3. Set h= (b-a)/n. 
+ 4. Set sum=0. 
+ 5. Begin For i= 1 to n -1 Set x =a + h*i. If i%3=0 Then Set sum=sum+2*f(x) 
+	Else Set sum=sum+3*f(x) End For 
+ 6. Set sum = sum + f(a)+f(b) 
+ 7. Set ans = sum*(3h/8) 
+ 8.End

@@ -1,0 +1,22 @@
+Objective: Program to implement Gauss Jordan Method. 
+Algorithm: 
+1. Start 
+2. Read the order of the matrix ‘n’ and read the coefficients of the 
+linear equations. 
+3. Do for k=1 to n 
+	Do for l=k+1 to n+1 
+	a[k][l] = a[k][l] / a[k][k] 
+	End for l 
+	Set a[k][k] = 1 
+	Do for i=1 to n 
+	if (i not equal to k) then, 
+	Do for j=k+1 to n+1 
+	a[i][j] = a[i][j] – (a[k][j] * a[i][k]) 
+	End for j 
+	End for i 
+	End for k 
+4. Do for m=1 to n 
+	x[m] = a[m][n+1] 
+	Display x[m] 
+	End for m 
+5. Stop

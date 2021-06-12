@@ -1,0 +1,14 @@
+Objective: Program to implement Simpson 1/3 rule. 
+Algorithm: 
+Step 1. Start; 
+Step 2. Input function f(x); 
+Step 3. Read a,b,n; // the lower and upper limits and number of 
+		sub-intervals 
+Step 4. Compute h=(b-a)/n; 
+Step 5. Sum = [f(a)-f(a+nh)]; 
+Step 6. for i=1 to n-1 step 2 do 
+		Compute sum = sum + 4*f(a+ih)+2*f(a+(i+1)h); 
+		end	for; 
+Step 7. Compute result = sum * h/3; 
+Step 8. Print result; 
+Step 9. Stop;

@@ -1,0 +1,17 @@
+Euler’s Method Algorithm:
+1. Start
+2. Define function
+3. Get the values of x0, y0, h and xn
+	*Here x0 and y0 are the initial conditions
+	h is the interval
+	xn is the required value
+4. n = (xn – x0)/h + 1
+5. Start loop from i=1 to n
+6. y = y0 + h*f(x0,y0)
+   x = x + h
+7. Print values of y0 and x0
+8. Check if x < xn
+	If yes, assign x0 = x and y0 = y
+	If no, goto 9.
+9. End loop i
+10. Stop

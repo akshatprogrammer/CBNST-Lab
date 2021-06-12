@@ -1,0 +1,23 @@
+Objective: Program to Implement Regular Falsi Method 
+Algorithm: 
+1. Start 
+2. Read values of x0, x1 and e 
+	*Here x0 and x1 are the two initial guesses 
+	e is the degree of accuracy or the absolute error i.e. the stopping 
+	criteria* 
+3. Computer function values f(x0) and f(x1) 
+4. Check whether the product of f(x0) and f(x1) is negative or not. 
+	If it is positive take another initial guesses. 
+	If it is negative then goto step 5. 
+5. Determine: 
+	x = [x0*f(x1) – x1*f(x0)] / (f(x1) – f(x0)) 
+6. Check whether the product of f(x1) and f(x) is negative or not. 
+	If it is negative, then assign x0 = x; 
+	If it is positive, assign x1 = x; 
+7. Check whether the value of f(x) is greater than 0.00001 or not. 
+	If yes, goto step 5. 
+	If no, goto step 8. 
+	*Here the value 0.00001 is the desired degree of accuracy, and 
+	hence the stopping criteria.* 
+8. Display the root as x. 
+9. Stop
